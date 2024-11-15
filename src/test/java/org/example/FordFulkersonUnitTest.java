@@ -4,9 +4,10 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class FordFulkersonUnitTest {
+    FordFulkerson ff = new FordFulkerson();
     @Test
     public void testFordFulkerson() {
-        FordFulkerson ff = new FordFulkerson();
+        
         int[][] graph = {
                 {0, 16, 13, 0, 0, 0},
                 {0, 0, 10, 12, 0, 0},
