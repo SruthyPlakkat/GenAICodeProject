@@ -74,4 +74,13 @@ public class FordFulkersonUnitTest {
         int[][] graph = {
                 {0, 10, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0, 0},
-                {0, 0, 0, 
+                {0, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0}
+        };
+        int result = ff.fordFulkerson(graph, 0, 5);
+        Assert.assertEquals(10, result); // Expecting 10 flow as there is one edge with capacity 10
+    }
+
+} 
