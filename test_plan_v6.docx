@@ -1,0 +1,99 @@
+# Test Plan
+
+## 1. Introduction
+- **Purpose of the Test Plan:** To outline the testing strategy and approach for the CRM system project.
+- **Scope:** This test plan covers the testing activities for the CRM system.
+- **Objectives:** Ensure the system meets all functional and non-functional requirements.
+- **References:** Requirements Document, Design Document.
+
+## 2. Test Items
+- **Items to be tested:** CRM system functionalities and performance.
+- **Features to be tested:** Functional and non-functional requirements.
+- **Features not to be tested:** Post-deployment review.
+
+## 3. Testing Strategy
+- **Types of testing:** Functional, Performance, Security.
+- **Levels of testing:** Unit, Integration, System.
+- **Test design techniques:** Requirement-based testing.
+
+## 4. Test Environment
+- **Hardware requirements:** Standard server and client machines.
+- **Software requirements:** CRM application, testing tools.
+- **Network configurations:** Standard network setup.
+
+## 5. Test Schedule
+- **Milestones:**
+  - Test Planning: Completed
+  - Test Design: In Progress
+  - Test Execution: Scheduled
+  - Test Closure: Scheduled
+- **Test phases:** Planning, Design, Execution, Closure.
+- **Resource allocation:** Testing team assigned.
+
+## 6. Test Deliverables
+- **Test cases:** Documented and reviewed.
+- **Test scripts:** Automated and manual scripts.
+- **Test data:** Prepared and validated.
+- **Test reports:** To be generated post-execution.
+
+## 7. Roles and Responsibilities
+- **Testing team members:** Responsible for test execution and reporting.
+- **Stakeholders:** Review and approve test results.
+
+## 8. Defect Management
+- **Defect reporting process:** Log defects in the defect tracking tool.
+- **Defect lifecycle:** New, Assigned, In Progress, Fixed, Retest, Closed.
+- **Tools used for defect tracking:** JIRA.
+
+## 9. Risks and Contingencies
+- **Potential risks:** Delays in test execution.
+- **Mitigation strategies:** Prioritize critical test cases.
+- **Contingency plans:** Allocate additional resources if needed.
+
+## 10. Approval and Sign-off
+- **Approval criteria:** All critical test cases passed.
+- **Sign-off process:** Stakeholder approval required.
+
+## Project Specific Impact to Testing
+- **Project phase:** Testing and Quality Assurance
+- **Technology stack:** CRM system
+- **Constraints and assumptions:**
+  - Constraints: Firm project timeline
+  - Assumptions: Adequate IT infrastructure
+- **Critical success factors:** Stakeholder approval
+- **Project geography:** Not specified
+
+## Scope of Testing
+### In-Scope:
+1. **Functional Requirements:** Testing the functional requirements of the system.
+2. **Non-Functional Requirements:** Testing the non-functional requirements of the system.
+
+### Out-of-Scope:
+1. **Post-deployment Review:** Reviewing the system post-deployment for any issues or improvements.
+
+### Third-Party Systems:
+TBD
+
+## Quality and Acceptance Criteria
+1. **System Reliability and Maintainability:**
+   - Reliability rate of at least 99%.
+   - MTTR of less than 2 hours for critical issues.
+2. **Acceptance Criteria:**
+   - System meets all specified functional and non-functional requirements.
+   - Stakeholder approval after user acceptance testing.
+
+## Test Process Description
+1. **Planning Phase:**
+   - **Entry Criteria:** Availability of the requirements document.
+   - **Exit Criteria:** Test plan approved by stakeholders.
+2. **Design Phase:**
+   - **Entry Criteria:** Approved test plan.
+   - **Exit Criteria:** Completion of test case design.
+3. **Execution Phase:**
+   - **Entry Criteria:** Completed test case design.
+   - **Exit Criteria:** Execution of all test cases.
+4. **Reporting Phase:**
+   - **Defect Severity Definitions:** Critical, Major, Minor.
+   - **Test Case Creation and Management:** Based on requirements and design documents.
+   - **Defect Reporting and Lifecycle Management:** Detailed steps to reproduce.
+   - **Testing Metrics and Tracking:** Test case pass rate, defect density, test coverage.
